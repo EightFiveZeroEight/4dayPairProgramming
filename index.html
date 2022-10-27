@@ -8,18 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        
-    </header>
 
-    <main class="main">
+    <section id="root">
+        <h1 id="resultChecker"></h1>
+        <div class="url">
+            <p>Enter URL you wish to bookmark below:</p>
+            <input id="urlInput" placeholder="Enter URL Here"  type="text">
+            <p>Enter the desired name for the bookmark:</p>
+            <input id="nameInput" placeholder="Enter Name Here"  type="text">
+            <br>
+            <button onclick="saveUrlInput()" id="nameSubmit" type="submit">Create Bookmark</button>
+        </div>
 
-    </main>
+        <div id="queryBox">
 
-    <footer class="footer">
-
-    </footer>
-
+         </div>
+    </section>
 
     <script src="index.js"></script>
 </body>
